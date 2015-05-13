@@ -1,2 +1,2 @@
-Here on accident?  Go to buttonwoodmerchants.com
+Here on accident?  Try going to [buttonwoodmerchants.com](http://buttonwoodmerchants.com)
 =====

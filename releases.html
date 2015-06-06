@@ -80,19 +80,21 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
 
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="myPage" align=left style="padding: 50px 0">
+      <!-- <div class="myPage" align=left style="padding: 50px 0">
         <A onClick="javascript:window.open('mailto:info@buttonwoodmerchants.com', 'mail');event.preventDefault()" href="mailto:info@buttonwoodmerchants.com"><img src="/images/BWoodLogo.jpg" alt="info@buttonwoodmerchants.com">
-      </div>
-      <div id="pdf" class="myPage" align=right>
+      </div> -->
+      <div id="pdf" class="myPage" align=center style="padding: 100px 0">
+        <h2>My awesome Title to this awsome paper</h2>
         <object	data="/static/test.pdf#toolbar=1&amp;navpanes=0&amp;scrollbar=1&amp;page=1&amp;view=FitH" 
-           type="application/pdf" 
-           width="100%" 
-           height="100%">
+           type="application/pdf"
+           style="width:100%;
+           height:500px;"
+           >
 
-	<p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href="/pdf/sample.pdf">click here to download the PDF file.</a></p>
+	<p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href="/static/test.pdf">click here to download the PDF file.</a></p>
 
 	</object>
       </div>

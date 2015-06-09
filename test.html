@@ -29,13 +29,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  
-    ga('create', 'UA-63384045-1', 'auto');
-    ga('send', 'pageview');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-63384045-1', 'auto');
+      ga('send', 'pageview');
 
     </script>
   </head>
@@ -60,10 +60,10 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+            <li class="active"><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
-            <li class="active"><a href="/releases">Releases</a></li>
-            <!-- <li class="dropdown">
+ 	    <li><a href="/releases">Releases</a></li>
+<!--            <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Action</a></li>
@@ -76,27 +76,27 @@
               </ul>
             </li> -->
           </ul>
-        </div> <!--/.nav-collapse -->
+        </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
-      <!-- <div class="myPage" align=left style="padding: 50px 0">
-        <A onClick="javascript:window.open('mailto:info@buttonwoodmerchants.com', 'mail');event.preventDefault()" href="mailto:info@buttonwoodmerchants.com"><img src="/images/BWoodLogo.jpg" alt="info@buttonwoodmerchants.com">
-      </div> -->
-      <div id="pdf" class="myPage" align=center style="padding: 100px 0">
-        <h2>"Tectonic Shifts in North American Natural Gas Production" June 9th, 2015</h2>
-        <object	data="http://buttonwoodmerchants.com/static/shifts_in_NA_natural_gas_production.pdf#toolbar=1&amp;navpanes=0&amp;scrollbar=1&amp;page=1&amp;view=FitH" 
-           type="application/pdf"
-           style="width:100%;
-           height:500px;"
-           >
-
-	<p>It appears you don't have a PDF plugin for this browser. You can <a href="http://buttonwoodmerchants.com/static/shifts_in_NA_natural_gas_production.pdf">click here to download the PDF file.</a></p>
-
-	</object>
+      <div class="myPage" align=center style="padding: 50px 0">
+        <div class="alert alert-success alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+           New report on the natural gas market just released. Click <a href='/releases'>here</a> to view.
+        </div>
+        <div class="page-header">
+	  <h1>The Buttonwood Agreement</h1>
+ 	</div>
+	<div class="row">
+	  <div class="col-md-4"><img src="static/buttonwoodagreement.jpg" alt="Buttonwood Agreement" class="img-responsive"></div>
+          <div class="jumbotron col-md-8">
+ 	    <p>On May 17, 1792 twenty-four brokers met at 68 Wall Street, underneath a Buttonwood tree, to trade securities. These brokers signed an agreement, later known as "The Buttonwood Agreement", and established what is now the New York Stock Exchange.</p>
+	  </div>
+	</div>
       </div>
 
     </div> <!-- /container -->

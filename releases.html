@@ -40,10 +40,10 @@ ga('send', 'pageview');
 </script>
 </head>
 
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<body>
 
 <!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default ">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -80,26 +80,24 @@ ga('send', 'pageview');
   </div>
 </nav>
 
-<div class="container-fluid" style="padding: 70px 0" >
+<div class="container-fluid"  >
     <div class="row">
-    <nav class="col-xs-3" id="myScrollspy" style="padding: 10px 10px">
-      <ul class="nav nav-pills nav-stacked affix" style="width:inherit">
-	<li class="active"><a href="#alpha">July 8th - Alpha Generation</a></li>
-	<li><a href="#cow">June 24th - Cattle Economics</a></li>
-	<li><a href="#natgas">June 8 - Natural Gas</a></li>
+    <nav class="col-md-3 col-xs-2" id="myScrollspy" style="padding: 10px 10px">
+      <ul class="btn-group nav btn-group-vertical affix" style="width:inherit">
+	<li class="btn" style="white-space: normal;" data-target="#myCarousel" data-slide-to="0"><a href="#alpha">July 8th - Alpha Generation</a></li>
+	<li class="btn" style="white-space: normal;" data-target="#myCarousel" data-slide-to="1"><a href="#cow">June 24th - Cattle Economics</a></li>
+	<li class="btn" style="white-space: normal;" data-target="#myCarousel" data-slide-to="2"><a href="#natgas">June 9 - Natural Gas</a></li>
       </ul>
     </nav>
-    <div class="col-xs-9" >
-     <div class="page-header">
-      <h1>Releases</h1>
-     </div>
-     <div id="alpha" class="panel panel-default" >
+    <div id="myCarousel" class="col-md-9 col-xs-10 carousel slide" >
+    <div class="carousel-inner">
+     <div id="alpha" class="panel panel-default item active" >
       <div class="panel-body">
-        <h1>"A Systematic Approach to Discretionary Alpha Generation in Commodity Markets" July 8th, 2015</h1>
+        <h1 class="text-center">"A Systematic Approach to Discretionary Alpha Generation in Commodity Markets" July 8th, 2015</h1>
         <object       data="/static/CommodityAlphaGeneration.pdf#toolbar=1&amp;navpanes=0&amp;scrollbar=1&amp;page=1&amp;view=FitH"
           type="application/pdf"
           style="width:100%;
-          height:500px;"
+          height:1200px;"
           >
 
           <p>It appears you don't have a PDF plugin for this browser. You can <a href="/static/CommodityAlphaGeneration.pdf">click here to download the PDF file.</a></p>
@@ -107,13 +105,13 @@ ga('send', 'pageview');
         </object>
        </div>
       </div>
-     <div id="cow" class="panel panel-default" >
+     <div id="cow" class="panel panel-default item" >
       <div class="panel-body">    
-	<h1>"Cattle Economics: Price Normalization after the Steroid Era" June 24th, 2015</h1>
+	<h1 class="text-center">"Cattle Economics: Price Normalization after the Steroid Era" June 24th, 2015</h1>
         <object       data="/static/CattleEconomicsButtonwoodResearch.pdf#toolbar=1&amp;navpanes=0&amp;scrollbar=1&amp;page=1&amp;view=FitH" 
           type="application/pdf"
           style="width:100%;
-          height:500px;"
+          height:1200px;"
           >
 
           <p>It appears you don't have a PDF plugin for this browser. You can <a href="/static/CattleEconomicsButtonwoodResearch.pdf">click here to download the PDF file.</a></p>
@@ -121,19 +119,20 @@ ga('send', 'pageview');
         </object>
        </div>
       </div>
-     <div id="natgas" class="panel panel-default" >
+     <div id="natgas" class="panel panel-default item" >
       <div class="panel-body"> 
-	<h1>"Tectonic Shifts in North American Natural Gas Production" June 9th, 2015"Tectonic Shifts in North American Natural Gas Production" June 9th, 2015</h1>
+	<h1 class="text-center">"Tectonic Shifts in North American Natural Gas Production" June 9th, 2015"Tectonic Shifts in North American Natural Gas Production" June 9th, 2015</h1>
 	<object       data="/static/shifts_in_NA_natural_gas_production.pdf#toolbar=1&amp;navpanes=0&amp;scrollbar=1&amp;page=1&amp;view=FitH" 
 	  type="application/pdf"
 	  style="width:100%;
-	  height:500px;"
+	  height:1200px;"
 	  >
 
 	  <p>It appears you don't have a PDF plugin for this browser. You can <a href="/static/shifts_in_NA_natural_gas_production.pdf">click here to download the PDF file.</a></p>
 
 	</object>
       </div>        
+     </div>
      </div>
     </div>
   </div>
